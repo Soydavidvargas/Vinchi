@@ -1,0 +1,546 @@
+{
+  "users": [
+    {
+      "id": "usr-agente-1",
+      "nombre": "Camila Andrea Vargas",
+      "primerNombre": "Camila",
+      "segundoNombre": "Andrea",
+      "primerApellido": "Vargas",
+      "email": "agente@vinchi.co",
+      "telefono": "+57 312 489 2010",
+      "role": "agente",
+      "businessActivated": true,
+      "agentApplicationStatus": "approved",
+      "courierApplicationStatus": "none",
+      "passwordHash": "40d70a273e32e6ac4249363c4225da9c:aa371242f61de8c91c2e9e12fa4cdab5bad52a9746ee21177ec219f7a894edb625a0a1e116d8e6ce74029dbd073b938234206501d3e4142491503cf3bf7c2430"
+    },
+    {
+      "id": "usr-comercio-1",
+      "nombre": "Mateo Rojas",
+      "primerNombre": "Mateo",
+      "primerApellido": "Rojas",
+      "negocioNombre": "Bistró Central",
+      "email": "comercio@vinchi.co",
+      "role": "comercio",
+      "businessActivated": true,
+      "agentApplicationStatus": "none",
+      "courierApplicationStatus": "none",
+      "passwordHash": "40d70a273e32e6ac4249363c4225da9c:aa371242f61de8c91c2e9e12fa4cdab5bad52a9746ee21177ec219f7a894edb625a0a1e116d8e6ce74029dbd073b938234206501d3e4142491503cf3bf7c2430"
+    },
+    {
+      "id": "usr-repartidor-1",
+      "nombre": "Sebastián Díaz",
+      "primerNombre": "Sebastián",
+      "primerApellido": "Díaz",
+      "email": "repartidor@vinchi.co",
+      "telefono": "+57 315 740 8821",
+      "role": "repartidor",
+      "businessActivated": true,
+      "agentApplicationStatus": "none",
+      "courierApplicationStatus": "approved",
+      "passwordHash": "40d70a273e32e6ac4249363c4225da9c:aa371242f61de8c91c2e9e12fa4cdab5bad52a9746ee21177ec219f7a894edb625a0a1e116d8e6ce74029dbd073b938234206501d3e4142491503cf3bf7c2430"
+    },
+    {
+      "id": "usr-admin-1",
+      "nombre": "Dirección Vinchi",
+      "primerNombre": "Dirección",
+      "primerApellido": "Vinchi",
+      "email": "admin@vinchi.co",
+      "role": "superadmin",
+      "businessActivated": true,
+      "agentApplicationStatus": "none",
+      "courierApplicationStatus": "none",
+      "passwordHash": "40d70a273e32e6ac4249363c4225da9c:aa371242f61de8c91c2e9e12fa4cdab5bad52a9746ee21177ec219f7a894edb625a0a1e116d8e6ce74029dbd073b938234206501d3e4142491503cf3bf7c2430"
+    },
+    {
+      "id": "usr-cliente-1",
+      "nombre": "Valeria Gómez",
+      "primerNombre": "Valeria",
+      "primerApellido": "Gómez",
+      "email": "cliente@vinchi.co",
+      "telefono": "+57 318 552 1044",
+      "role": "cliente",
+      "businessActivated": false,
+      "agentApplicationStatus": "none",
+      "courierApplicationStatus": "none",
+      "passwordHash": "8c6a959ac99ea9e765ed9d32decb69f5:458bc7e86a54deed223a4973bc244d1610290771ce0ff027871ae00d1c0871de8505bc1c3ec601a85db400b983c020642c88d6f6dc88cd01165462c239aa7add"
+    },
+    {
+      "id": "usr-1794730597160-6d1cfb",
+      "nombre": "Camila Rojas",
+      "primerNombre": "Camila",
+      "primerApellido": "Rojas",
+      "negocioNombre": "Espacio de Camila",
+      "email": "qa_1794730597156@vinchi.co",
+      "role": "cliente",
+      "businessActivated": false,
+      "agentApplicationStatus": "none",
+      "courierApplicationStatus": "none",
+      "passwordHash": "ffd9fc9bb344446e06431dca41fa56c3:86de7740d131d5d75c208459137284d1d3d2e8a98ae0c5bc47d19639508342ea255139c1804744253be19647793ee33147827217303eccbaa46c0aa424211e80"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "d7ed629502bdb250acad5a74cdd49b4d74d86971ff88bb01",
+      "userId": "usr-cliente-1",
+      "createdAt": "2026-11-15T08:02:06.120Z"
+    },
+    {
+      "token": "93a46a339a8a2493c780a72dbe2c25769e5fb9688cbe7c58",
+      "userId": "usr-cliente-1",
+      "createdAt": "2026-11-15T08:12:59.396Z"
+    },
+    {
+      "token": "938da373a7752501c08ffcfc9afd330c1558a1262155970c",
+      "userId": "usr-cliente-1",
+      "createdAt": "2026-11-15T08:16:37.146Z"
+    },
+    {
+      "token": "33bcdcdc5826a189ae47d65b3bee5e4c83444685668fa823",
+      "userId": "usr-1794730597160-6d1cfb",
+      "createdAt": "2026-11-15T08:16:37.245Z"
+    },
+    {
+      "token": "aa7f4ac2b3f9ca2ce741087a596dc2db3ef43801a455e9e4",
+      "userId": "usr-cliente-1",
+      "createdAt": "2026-11-15T08:23:20.071Z"
+    },
+    {
+      "token": "7507bb7ea18005901c945c4a0949d545994a8f76f636f5a5",
+      "userId": "usr-cliente-1",
+      "createdAt": "2026-11-15T08:29:06.494Z"
+    }
+  ],
+  "agents": [
+    {
+      "userId": "usr-agente-1",
+      "nombre": "Camila Andrea Vargas",
+      "primerNombre": "Camila",
+      "segundoNombre": "Andrea",
+      "primerApellido": "Vargas",
+      "email": "agente@vinchi.co",
+      "telefono": "+57 312 489 2010",
+      "departamento": "Cundinamarca",
+      "municipio": "Bogotá D.C.",
+      "horario": "Lunes a Sábado · 8:00 a.m. - 7:00 p.m.",
+      "bio": "Agente comercial certificado Vinchi en vinculación presencial y virtual de comercios locales.",
+      "disponible": true,
+      "comerciosVinculados": 18,
+      "setupFeesCobrados": 18,
+      "comisionAcumuladaCop": 630000,
+      "tasaConversion": "64%",
+      "stats": {
+        "clientesAceptados": 18,
+        "clientesNegados": 2,
+        "activacionesVirtuales": 6,
+        "activacionesPresenciales": 12,
+        "horasTrabajadasMes": 142,
+        "diasActivosMes": 21
+      },
+      "wallet": {
+        "saldoDisponibleCop": 240000,
+        "totalRetiradoCop": 390000,
+        "autoMonthlyEnabled": true,
+        "autoMonthlyDay": 1,
+        "cards": [
+          {
+            "id": "card-seed-1",
+            "alias": "Bancolombia Principal",
+            "banco": "Bancolombia",
+            "ultimos4": "4821",
+            "titular": "Camila Andrea Vargas",
+            "expiracion": "09/28",
+            "tipo": "Debito",
+            "predeterminada": true
+          }
+        ],
+        "withdrawals": [
+          {
+            "id": "wd-seed-1",
+            "montoCop": 390000,
+            "cardLabel": "Bancolombia •••• 4821",
+            "tipo": "Automatico Mensual",
+            "estado": "Procesado",
+            "createdAt": "2026-11-01T04:56:06.205Z"
+          }
+        ]
+      }
+    }
+  ],
+  "agentApplications": [],
+  "couriers": [
+    {
+      "userId": "usr-repartidor-1",
+      "nombre": "Sebastián Díaz",
+      "primerNombre": "Sebastián",
+      "primerApellido": "Díaz",
+      "email": "repartidor@vinchi.co",
+      "telefono": "+57 315 740 8821",
+      "departamento": "Cundinamarca",
+      "municipio": "Bogotá D.C.",
+      "direccionCasa": "Calle 85 # 14-20",
+      "vehiculo": "Motocicleta",
+      "activo": true,
+      "lastToggleDate": "2026-11-15",
+      "togglesUsedToday": 1,
+      "vinchiAutoContract": true,
+      "stats": {
+        "enviadosTotal": 35,
+        "entregadosTotal": 34,
+        "gananciasTotalesCop": 312000,
+        "entregasHoy": 3
+      },
+      "wallet": {
+        "saldoDisponibleCop": 124000,
+        "totalRetiradoCop": 188000,
+        "autoMonthlyEnabled": true,
+        "autoMonthlyDay": 5,
+        "cards": [
+          {
+            "id": "c-card-seed-1",
+            "alias": "Nequi Domicilio",
+            "banco": "Nequi",
+            "ultimos4": "8821",
+            "titular": "Sebastián Díaz",
+            "expiracion": "12/29",
+            "tipo": "Cuenta Bancaria",
+            "predeterminada": true
+          }
+        ],
+        "withdrawals": [
+          {
+            "id": "c-wd-seed-1",
+            "montoCop": 188000,
+            "cardLabel": "Nequi •••• 8821",
+            "tipo": "Automatico Mensual",
+            "estado": "Procesado",
+            "createdAt": "2026-11-05T04:56:06.205Z"
+          }
+        ]
+      },
+      "activeOrder": {
+        "id": "dord-1794718611948-2f29",
+        "codigoOrden": "#DM-4945",
+        "step": "to_client",
+        "empresaNombre": "Sushi House 93",
+        "empresaDireccion": "Calle 85 # 15-24, Local 102",
+        "empresaBarrio": "Bogotá D.C.",
+        "clienteNombre": "Sofía Martínez",
+        "clienteTelefono": "+57 320 918 7742",
+        "clienteDireccion": "Av. 19 # 104-18, Casa 4",
+        "clienteBarrio": "Santa Bárbara",
+        "comidaResumen": "1x Ramen Tonkotsu Clásico + 2x Gyozas al Vapor",
+        "pagoDomicilioCop": 9500,
+        "distanciaEmpresaKm": 0,
+        "distanciaClienteKm": 6.4,
+        "pickupCodeExpected": "EMP-6120",
+        "deliveryCodeExpected": "CLI-8391",
+        "pickupVerified": true,
+        "deliveryVerified": false,
+        "createdAt": "2026-11-15T04:56:51.948Z"
+      },
+      "chatMessages": [
+        {
+          "id": "cmsg-1794718611948-1",
+          "orderId": "dord-1794718611948-2f29",
+          "channel": "empresa",
+          "senderRole": "empresa",
+          "senderName": "Sushi House 93",
+          "text": "Hola Sebastián, tenemos el pedido #DM-4945 (1x Ramen Tonkotsu Clásico + 2x Gyozas al Vapor) listo para recoger en Calle 85 # 15-24, Local 102. Cuando llegues al local te damos el código de entrega.",
+          "createdAt": "2026-11-15T04:56:51.948Z"
+        },
+        {
+          "id": "cmsg-1794718611948-2",
+          "orderId": "dord-1794718611948-2f29",
+          "channel": "empresa",
+          "senderRole": "sistema",
+          "senderName": "Despacho",
+          "text": "Código de recogida generado en caja para validación: EMP-6120",
+          "createdAt": "2026-11-15T04:56:51.948Z"
+        }
+      ],
+      "companies": [
+        {
+          "id": "emp-bistro",
+          "empresaNombre": "Bistró Central",
+          "ciudad": "Bogotá D.C.",
+          "categoria": "Restaurante",
+          "tarifaBaseCop": 8500,
+          "estado": "Contratado"
+        },
+        {
+          "id": "emp-mercado84",
+          "empresaNombre": "Mercado Urbano 84",
+          "ciudad": "Medellín",
+          "categoria": "Supermercado",
+          "tarifaBaseCop": 9200,
+          "estado": "Contratado"
+        },
+        {
+          "id": "emp-parrilla",
+          "empresaNombre": "Parrilla del Norte",
+          "ciudad": "Bogotá D.C.",
+          "categoria": "Restaurante",
+          "tarifaBaseCop": 8900,
+          "estado": "Disponible"
+        },
+        {
+          "id": "emp-sushi93",
+          "empresaNombre": "Sushi House 93",
+          "ciudad": "Bogotá D.C.",
+          "categoria": "Gastronomía",
+          "tarifaBaseCop": 9500,
+          "estado": "Disponible"
+        },
+        {
+          "id": "emp-cafe-parque",
+          "empresaNombre": "Café del Parque",
+          "ciudad": "Chía",
+          "categoria": "Cafetería",
+          "tarifaBaseCop": 7800,
+          "estado": "Disponible"
+        }
+      ],
+      "completedHistory": [
+        {
+          "id": "hist-1",
+          "codigoOrden": "#DM-4091",
+          "empresaNombre": "Bistró Central",
+          "pagoDomicilioCop": 9200,
+          "completedAt": "2026-11-15T00:56:06.206Z"
+        },
+        {
+          "id": "hist-2",
+          "codigoOrden": "#DM-4098",
+          "empresaNombre": "Mercado Urbano 84",
+          "pagoDomicilioCop": 10500,
+          "completedAt": "2026-11-15T02:56:06.206Z"
+        }
+      ]
+    }
+  ],
+  "courierApplications": [],
+  "vinchiTotalCop": 90000,
+  "requests": [],
+  "messages": {},
+  "orders": [
+    {
+      "id": "pos-cli-ord-1794730597280-fe7c",
+      "codigo": "#VN-9459",
+      "mesaOOrigen": "Domicilio · Casa",
+      "clienteNombre": "Camila Rojas",
+      "hora": "08:16",
+      "estado": "En preparación",
+      "totalCop": 73250,
+      "items": [
+        {
+          "id": "prod-bc-1",
+          "nombre": "Corte Ribeye Madurado 350g",
+          "cantidad": 1,
+          "precioUnitarioCop": 68000
+        }
+      ],
+      "deliveryDetails": {
+        "id": "loc-1794730597250-5675",
+        "nombreLugar": "Casa QA",
+        "etiqueta": "Casa",
+        "esConjuntoPrivado": false,
+        "direccion": "Calle 85 # 12-40",
+        "indicacionesEdificio": "Portón gris",
+        "modoEntrega": "Recibir a la mano",
+        "predeterminada": true,
+        "createdAt": "2026-11-15T08:16:37.250Z"
+      },
+      "empresaId": "emp-bistro-central",
+      "empresaNombre": "Bistró Central",
+      "bonoDomiciliarioCop": 750,
+      "bonoNombre": "Héroe de tu Entrega"
+    },
+    {
+      "id": "pos-cli-ord-1794730597274-5c72",
+      "codigo": "#VN-6162",
+      "mesaOOrigen": "Domicilio · Casa",
+      "clienteNombre": "Camila Rojas",
+      "hora": "08:16",
+      "estado": "En preparación",
+      "totalCop": 72800,
+      "items": [
+        {
+          "id": "prod-bc-1",
+          "nombre": "Corte Ribeye Madurado 350g",
+          "cantidad": 1,
+          "precioUnitarioCop": 68000
+        }
+      ],
+      "deliveryDetails": {
+        "id": "loc-1794730597250-5675",
+        "nombreLugar": "Casa QA",
+        "etiqueta": "Casa",
+        "esConjuntoPrivado": false,
+        "direccion": "Calle 85 # 12-40",
+        "indicacionesEdificio": "Portón gris",
+        "modoEntrega": "Recibir a la mano",
+        "predeterminada": true,
+        "createdAt": "2026-11-15T08:16:37.250Z"
+      },
+      "empresaId": "emp-bistro-central",
+      "empresaNombre": "Bistró Central",
+      "bonoDomiciliarioCop": 300,
+      "bonoNombre": "Paso Solidario"
+    },
+    {
+      "id": "ord-101",
+      "codigo": "#VN-1042",
+      "mesaOOrigen": "Mesa 04",
+      "clienteNombre": "Laura Méndez",
+      "hora": "19:14",
+      "estado": "Lista para cobro",
+      "totalCop": 78000,
+      "items": [
+        {
+          "id": "i1",
+          "nombre": "Bowl Proteico Especial",
+          "cantidad": 2,
+          "precioUnitarioCop": 32000
+        },
+        {
+          "id": "i2",
+          "nombre": "Limonada Hierbabuena",
+          "cantidad": 2,
+          "precioUnitarioCop": 7000
+        }
+      ]
+    },
+    {
+      "id": "ord-102",
+      "codigo": "#VN-1043",
+      "mesaOOrigen": "Domicilio Directo",
+      "clienteNombre": "Carlos Restrepo",
+      "hora": "19:22",
+      "estado": "En preparación",
+      "totalCop": 54000,
+      "items": [
+        {
+          "id": "i3",
+          "nombre": "Hamburguesa Artesanal Doble",
+          "cantidad": 1,
+          "precioUnitarioCop": 38000
+        },
+        {
+          "id": "i4",
+          "nombre": "Papas Trufadas",
+          "cantidad": 1,
+          "precioUnitarioCop": 16000
+        }
+      ]
+    }
+  ],
+  "clientLocationsByUser": {
+    "usr-cliente-1": [],
+    "usr-1794730597160-6d1cfb": [
+      {
+        "id": "loc-1794730597250-5675",
+        "nombreLugar": "Casa QA",
+        "etiqueta": "Casa",
+        "esConjuntoPrivado": false,
+        "direccion": "Calle 85 # 12-40",
+        "indicacionesEdificio": "Portón gris",
+        "modoEntrega": "Recibir a la mano",
+        "predeterminada": true,
+        "createdAt": "2026-11-15T08:16:37.250Z"
+      }
+    ]
+  },
+  "clientOrders": [
+    {
+      "id": "cli-ord-1794730597280-fe7c",
+      "userId": "usr-1794730597160-6d1cfb",
+      "codigo": "#VN-9459",
+      "empresaId": "emp-bistro-central",
+      "empresaNombre": "Bistró Central",
+      "empresaDireccion": "Calle 85 # 15-24, Local 102 · Zona T · El Retiro",
+      "estado": "En preparación",
+      "metodoPago": "Tarjeta",
+      "subtotalCop": 68000,
+      "costoDomicilioCop": 4500,
+      "bonoDomiciliarioCop": 750,
+      "bonoNombre": "Héroe de tu Entrega",
+      "totalCop": 73250,
+      "items": [
+        {
+          "id": "prod-bc-1",
+          "nombre": "Corte Ribeye Madurado 350g",
+          "cantidad": 1,
+          "precioUnitarioCop": 68000
+        }
+      ],
+      "location": {
+        "id": "loc-1794730597250-5675",
+        "nombreLugar": "Casa QA",
+        "etiqueta": "Casa",
+        "esConjuntoPrivado": false,
+        "direccion": "Calle 85 # 12-40",
+        "indicacionesEdificio": "Portón gris",
+        "modoEntrega": "Recibir a la mano",
+        "predeterminada": true,
+        "createdAt": "2026-11-15T08:16:37.250Z"
+      },
+      "enviadoADomiciliario": true,
+      "enviadoAEmpresa": true,
+      "createdAt": "2026-11-15T08:16:37.280Z"
+    },
+    {
+      "id": "cli-ord-1794730597274-5c72",
+      "userId": "usr-1794730597160-6d1cfb",
+      "codigo": "#VN-6162",
+      "empresaId": "emp-bistro-central",
+      "empresaNombre": "Bistró Central",
+      "empresaDireccion": "Calle 85 # 15-24, Local 102 · Zona T · El Retiro",
+      "estado": "En preparación",
+      "metodoPago": "Nequi",
+      "subtotalCop": 68000,
+      "costoDomicilioCop": 4500,
+      "bonoDomiciliarioCop": 300,
+      "bonoNombre": "Paso Solidario",
+      "totalCop": 72800,
+      "items": [
+        {
+          "id": "prod-bc-1",
+          "nombre": "Corte Ribeye Madurado 350g",
+          "cantidad": 1,
+          "precioUnitarioCop": 68000
+        }
+      ],
+      "location": {
+        "id": "loc-1794730597250-5675",
+        "nombreLugar": "Casa QA",
+        "etiqueta": "Casa",
+        "esConjuntoPrivado": false,
+        "direccion": "Calle 85 # 12-40",
+        "indicacionesEdificio": "Portón gris",
+        "modoEntrega": "Recibir a la mano",
+        "predeterminada": true,
+        "createdAt": "2026-11-15T08:16:37.250Z"
+      },
+      "enviadoADomiciliario": true,
+      "enviadoAEmpresa": true,
+      "createdAt": "2026-11-15T08:16:37.275Z"
+    }
+  ],
+  "clientAiQuotaByUser": {
+    "usr-cliente-1": {
+      "monthKey": "2026-11",
+      "usesThisMonth": 0,
+      "adBonusUses": 0,
+      "isClientPremium": false
+    },
+    "usr-1794730597160-6d1cfb": {
+      "monthKey": "2026-11",
+      "usesThisMonth": 0,
+      "adBonusUses": 1,
+      "isClientPremium": true,
+      "premiumSince": "2026-11-15T08:16:37.290Z",
+      "premiumPaymentMethod": "Nequi"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Vinchi",
+  "description": "Plataforma SaaS omnicanal B2B2C con 0% comisión para restaurantes y supermercados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
